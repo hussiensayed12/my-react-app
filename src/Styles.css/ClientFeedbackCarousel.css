@@ -1,0 +1,33 @@
+.client-feedback-carousel {
+    background-color: #f9f9f9; /* Set the background color */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .feedback-item {
+    padding: 20px; /* Add padding for each feedback item */
+  }
+  
+  .feedback-content {
+    background-color: rgb(219, 217, 210); /* Set the background color of the feedback content */
+    padding: 20px; /* Add padding for spacing within the feedback content */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .client-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; /* Add margin for spacing between feedback text and client info */
+  }
+  
+  .client-image {
+    width: 50px; /* Set the width of the client image */
+    height: 50px; /* Set the height of the client image */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 15px; /* Add margin for spacing between image and text */
+  }
+  
+  .client-name {
+    font-weight: bold; /* Make the client name bold */
+  }
+  

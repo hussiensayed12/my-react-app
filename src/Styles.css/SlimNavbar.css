@@ -1,0 +1,76 @@
+/* SlimNavbar.css */
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand img {
+    width: 40px; /* Adjust logo width */
+    height: 40px; /* Adjust logo height */
+  }
+  
+  /* Navbar Toggler Icon */
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>'); /* Custom navbar toggler icon */
+  }
+  
+  /* Slim Navbar Items */
+  .navbar-nav .nav-link {
+    color: #333333; /* Dark text color */
+    margin-right: 15px; /* Add right margin between items */
+  }
+  
+  /* Slim Navbar Items on Hover */
+  .navbar-nav .nav-link:hover {
+    color: red; /* Change text color on hover */
+  }
+  
+  /* English Dropdown */
+  .dropdown-menu {
+    background-color: #ffffff; /* White background */
+    border: none; /* Remove border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  /* Dropdown Item */
+  .dropdown-item {
+    color: #333333; /* Dark text color */
+  }
+  
+  /* Dropdown Item on Hover */
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+  }
+  .navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Wishlist and Compare Items */
+  .navbar-nav.ml-auto .nav-item {
+    margin-left: 40px; /* Add margin between items */
+  }
+  /* Right Aligned Items */
+.navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Wishlist and Compare Items */
+  .navbar-nav.ml-auto .nav-item {
+    margin-left: 15px; /* Add margin between items */
+  }
+  
+  /* Wishlist and Compare Items - Move to Right */
+ 
+  .navbar-nav.ml-auto .nav-item:nth-last-child(2) {
+    margin-left: 50px; /* Move last item to the right */
+  }
+  .navbar-nav.ml-auto .nav-item:nth-last-child(3) {
+    margin-right: 50px; /* Move last item to the right */
+  }
+  /* Add more styles as needed */
+  

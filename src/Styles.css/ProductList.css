@@ -1,0 +1,218 @@
+/* ProductList.css */
+
+/* Product list container */
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Product card */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 280px;
+  transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product details */
+.product-details {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif; /* Custom font */
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e44d26; /* Red color for price */
+}
+
+.product-discount {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+}
+
+.product-rating span {
+  margin-left: 5px;
+  color: #ffb400; /* Yellow color for rating */
+}
+
+/* Add to Cart button */
+.add-to-cart-btn {
+  background-color: #051221; /* Green color for the button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #a06845; /* Darker green on hover */
+}
+
+/* Home page styles */
+.home-page {
+  padding: 20px;
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 40px; /* Add space between sections */
+}
+
+/* Quote section */
+.quotes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.quote-container {
+  text-align: center;
+  max-width: 300px;
+}
+
+.quote-container img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+
+/* Exclusive Products section */
+.exclusive-products {
+  background-color: #f9f9f9; 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center; 
+}
+.exclusive-products .add-to-cart-logo,
+.exclusive-products .view-product-logo {
+  max-width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.exclusive-products .add-to-cart-logo:hover,
+.exclusive-products .view-product-logo:hover {
+  transform: scale(1.1);
+}
+.product-card .add-to-cart-logo,
+.product-card .view-product-logo {
+  max-width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.product-card .add-to-cart-logo:hover,
+.product-card .view-product-logo:hover {
+  transform: scale(1.1);
+}
+
+.exclusive-products h2 {
+  margin-bottom: 20px; 
+}
+
+.product-card-exclusive {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: calc(25% - 20px); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.product-card-exclusive:hover {
+  transform: scale(1.05); 
+}
+
+.product-card-exclusive img {
+  max-width: 30%;
+  height: auto;
+}
+
+.product-description {
+  font-family: 'Roboto', sans-serif; /* Apply the imported font */
+  font-weight: 600; /* Ensure bold font weight */
+}
+
+/* Add custom font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+/* Single Product Banner Section */
+.banner-quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.banner-image {
+  flex: 1;
+  /* Add styles for the full-width photo here */
+}
+
+.quote-container1 {
+  background-color: rgb(250, 250, 250);
+  flex: 1;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.quote-container1 h3 {
+  font-size: 37px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quote-container1 p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.shop-now-btn1 {
+  max-width: 200px;
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #c66a1f;
+}

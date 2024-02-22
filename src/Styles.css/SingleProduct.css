@@ -1,0 +1,54 @@
+/* SingleProduct.css */
+
+.single-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 252, 252); /* Semi-transparent background */
+    z-index: 1000; /* Ensure the SingleProduct component appears above other content */
+  }
+  
+  .single-product-content {
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+  }
+  

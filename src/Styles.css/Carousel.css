@@ -1,0 +1,44 @@
+/* Carousel.css */
+
+/* Carousel.css */
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 670px; /* Adjust the maximum height as needed */
+}
+
+.carousel-item button {
+  margin-bottom: 200px;
+  max-width: 200px;
+  background-color: #a32020;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.carousel-item h5 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.carousel-item p {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* .carousel-caption button {
+  background-color: #051221;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+} */
+
+.carousel-caption button:hover {
+  background-color: #b34500;
+}

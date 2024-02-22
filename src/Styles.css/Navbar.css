@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black; /* Add a border to the bottom */
+}
+
+.logo-container {
+  max-width: 200px;
+}
+
+.logo {
+  margin-left: 150px;
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 50px; /* Adjust spacing between menu items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+  color: red; /* Change color on hover */
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  list-style-type: none; /* Remove bullet points */
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif; /* Apply a nice font */
+}
+
+.dropdown-link:hover {
+  color: red; /* Change color on hover */
+}
+
+/* Add mobile menu toggle styles */
+.menu-toggle {
+  display: none; /* Initially hide the menu toggle */
+  cursor: pointer;
+}
+
+.menu-toggle.active .hamburger:before,
+.menu-toggle.active .hamburger:after {
+  top: 0;
+}
+
+.menu-toggle.active .hamburger:before {
+  transform: rotate(45deg);
+}
+
+.menu-toggle.active .hamburger:after {
+  transform: rotate(-45deg);
+}
+
+.hamburger {
+  position: relative;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  display: block;
+}
+
+.hamburger:before,
+.hamburger:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  left: 0;
+  transition: top 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.hamburger:before {
+  top: -8px;
+}
+
+.hamburger:after {
+  top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none; /* Hide the menu items on small screens */
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    display: flex; /* Show the menu items when menu is active */
+  }
+
+  .nav-item {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link {
+    color: #000;
+    font-size: 16px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .dropdown-menu li {
+    margin-bottom: 0;
+  }
+
+  .dropdown-link {
+    color: #000;
+  }
+}
+.cart-logo {
+  max-width: 30px; /* Set the maximum width of the cart logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
